@@ -1,6 +1,6 @@
 {
   "name": "actions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Actions for a resourceful controller, CURD",
   "main": "index.js",
   "author": "Fangdun Cai <cfddream@gmail.com>",
