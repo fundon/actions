@@ -1,0 +1,12 @@
+{
+  "name": "actions",
+  "version": "1.0.0",
+  "description": "Actions for a resourceful controller, CURD",
+  "main": "index.js",
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fundon/actions.git"
+  }
+}
