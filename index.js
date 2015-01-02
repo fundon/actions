@@ -3,10 +3,10 @@
 
 module.exports = [
   'index',    // GET        `posts#index`   `/posts`
-  'new',      // GET        `posts#new`     `/posts/new`
   'create',   // POST       `posts#create`  `/posts`
+  'new',      // GET        `posts#new`     `/posts/new`
   'show',     // GET        `posts#show`    `/posts/:id`
-  'edit',     // GET        `posts#edit`    `/posts/:id/edit`
   'update',   // PATCH/PUT  `posts#update`  `/posts/:id`
-  'destory'   // DELETE     `posts#destory` `/posts/:id`
+  'destory',  // DELETE     `posts#destory` `/posts/:id`
+  'edit'      // GET        `posts#edit`    `/posts/:id/edit`
 ];
