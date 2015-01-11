@@ -15,7 +15,7 @@ exports.ACTIONS = [
   'new',      // GET        `posts#new`     `/posts/new`
   'show',     // GET        `posts#show`    `/posts/:id`
   'update',   // PATCH/PUT  `posts#update`  `/posts/:id`
-  'destory',  // DELETE     `posts#destory` `/posts/:id`
+  'destroy',  // DELETE     `posts#destroy` `/posts/:id`
   'edit'      // GET        `posts#edit`    `/posts/:id/edit`
 ];
 
@@ -24,7 +24,7 @@ exports.SINGLETON_ACTIONS = [
   'show',     // GET        `post#show`    `/post/:id`
   'create',   // POST       `post#create`  `/post`
   'update',   // PATCH/PUT  `post#update`  `/post/:id`
-  'destory',  // DELETE     `post#destory` `/post/:id`
+  'destroy',  // DELETE     `post#destroy` `/post/:id`
   'new',      // GET        `post#new`     `/post/new`
   'edit'      // GET        `post#edit`    `/post/:id/edit`
 ];
