@@ -28,4 +28,18 @@ exports.SINGLETON_ACTIONS = [
   'new',      // GET        `post#new`     `/post/new`
   'edit'      // GET        `post#edit`    `/post/:id/edit`
 ];
+
+// Canonical Actions
+exports.CANONICAL_ACTIONS = [
+  'index',    // GET        `posts#index`   `/posts`
+  'create',   // POST       `posts#create`  `/posts`
+  'new',      // GET        `posts#new`     `/posts/new`
+  'show',     // GET        `posts#show`    `/posts/:id`
+  'update',   // PATCH/PUT  `posts#update`  `/posts/:id`
+  'destroy',  // DELETE     `posts#destroy` `/posts/:id`
+];
 ```
+
+## License
+
+  MIT
