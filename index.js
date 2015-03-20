@@ -1,3 +1,8 @@
+/*!
+ * actions
+ * Copyright(c) 2015 Fangdun Cai
+ * MIT Licensed
+ */
 
 // http://guides.rubyonrails.org/routing.html
 
@@ -20,4 +25,14 @@ exports.SINGLETON_ACTIONS = [
   'destroy',  // DELETE     `post#destroy` `/post/:id`
   'new',      // GET        `post#new`     `/post/new`
   'edit'      // GET        `post#edit`    `/post/:id/edit`
+];
+
+// Canonical Actions
+exports.CANONICAL_ACTIONS = [
+  'index',    // GET        `posts#index`   `/posts`
+  'create',   // POST       `posts#create`  `/posts`
+  'new',      // GET        `posts#new`     `/posts/new`
+  'show',     // GET        `posts#show`    `/posts/:id`
+  'update',   // PATCH/PUT  `posts#update`  `/posts/:id`
+  'destroy',  // DELETE     `posts#destroy` `/posts/:id`
 ];
